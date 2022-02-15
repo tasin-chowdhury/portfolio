@@ -1,6 +1,8 @@
 body{
     font-family: 'Roboto', sans-serif;
-
+    background-image: url('https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-White-Gradient-Background-Image.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 .navbar{
     display: flex;
@@ -23,12 +25,20 @@ h2{
 
 #get-in-touch{
     text-decoration: none;
-    color: aliceblue;
-    background-color: rgba(162, 133, 189, 0.548);
+    background-color: rgba(137, 43, 226, 0.363);
     border-radius: 10px;
     
 }
 #get-in-touch:hover{
     border: 4px sloid rgb(255, 255, 255);
     box-shadow: 7px 7px rgb(77, 60, 110);
+}
+
+
+footer{
+    text-align: center;
+    font-size: large;
+    color: rgb(90, 15, 160);
+    background-color: rgba(137, 43, 226, 0.363);
+    padding: 20px;
 }

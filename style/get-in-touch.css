@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 50px;
+    padding: 20px;
+}
+fieldset{
+    border: 5px solid rgb(71, 8, 131);
+    margin: 50px 200px;
+    padding: 50px;
+    font-size: 25px;
+    color: rgb(80, 76, 76);
+}
+input{
+    height: 30px;
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+
+
+legend ,button{
+    background-color: rgba(146, 88, 201, 0.247);
+    border-radius: 10px; 
+    border: 2px solid rgb(71, 8, 131);
+    padding: 15px;
+    font-size: large;
+    color: rgb(90, 15, 160);
+    
+}
+button:hover{
+    box-shadow: 5px 5px rgb(125, 106, 143) ;
+}
+
