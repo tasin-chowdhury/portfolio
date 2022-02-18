@@ -17,6 +17,19 @@ body{
 a{
     text-decoration: none;
 }
+aside {
+    width: 5%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: transparent;
+  }
+
+  aside img{
+      height: 1%;
+      width: 60%;
+  }
 h2{
     padding: 2%;
     color: rgb(90, 15, 160);
@@ -35,7 +48,7 @@ h2{
 }
 
 
-footer{
+footer p{
     text-align: center;
     font-size: large;
     color: rgb(90, 15, 160);
