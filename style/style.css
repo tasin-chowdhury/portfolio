@@ -47,11 +47,18 @@ h2{
     box-shadow: 7px 7px rgb(77, 60, 110);
 }
 
-
-footer p{
+footer{
     text-align: center;
-    font-size: large;
     color: rgb(90, 15, 160);
     background-color: rgba(137, 43, 226, 0.363);
     padding: 20px;
+    
+}
+footer p{
+    font-size: large;
+}
+
+.contact img{
+    height: 50px;
+    width: 50px;
 }
