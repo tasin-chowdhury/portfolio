@@ -18,9 +18,9 @@
         </div class=" nav-items">
 
         <h2 class="nav-item"><a href="index.html "> Home</a></h2>
-        <h2 class="nav-item"><a href="https://github.com/tasin-chowdhury"> Portfilo</a></h2>
-        <h2 class="nav-item"><a href="https://github.com/tasin-chowdhury"> About</a></h2>
-        <h2 class="nav-item"><a href="https://github.com/tasin-chowdhury"> Testimonial</a></h2>
+        <h2 class="nav-item"><a href="portfolio.html"> Portfilo</a></h2>
+        <h2 class="nav-item"><a href="about.html"> About</a></h2>
+        <h2 class="nav-item"><a href="testimonial.html"> Testimonial</a></h2>
         <h2 class="nav-item" id="get-in-touch"><a href="get-in-touch.html"> Get In Touch</a></h2>
     </div>
     <!-- navbar end -->
@@ -37,23 +37,27 @@
 
     <!-- get in touch section -->
     <h1>Thanks for taking the time to reach out. How can I help you today?</h1>
-    <form class="get-in-touch-form" action="get-in-touched.html">
+    <form id="form" class="get-in-touch-form" action="get-in-touched.html" method="get">
         <fieldset>
+            <div id="error"></div>
             <legend>Start Conversation</legend>
             <label for="name" class="form-item">Name:</label><br>
             <input type="text" class="form-item" name="name" id="name"><br>
             <label for="email" class="form-item">Email:</label><br>
-            <input type="email" class="form-item" name="email" id="email"><br>
+            <input type="email" class="form-item" name="email" id="email" required><br>
             <label for="message" class="form-item">Massage:</label><br>
             <textarea name="message" class="form-item" id="message" cols="30" rows="10"></textarea><br>
-            <button type="submit"><b>Submit</b></button>
+            <button id="submitBtn" type="submit" onclick="submitbtn()"><b>Submit</b></button>
         </fieldset>
     </form>
+
 
 
     <footer>
         <p>Handcrafted by me &copy 2022. All Rights Reserved</p>
     </footer>
+
+    <script src="js/get-in-touch.js"></script>
 
 </body>
 

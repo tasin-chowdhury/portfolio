@@ -3,6 +3,8 @@ body{
     background-image: url('https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-White-Gradient-Background-Image.jpg');
     background-repeat: no-repeat;
     background-size:cover;
+    /* min-height: 100%;
+    position: relative; */
 }
 .navbar{
     display: flex;
@@ -11,7 +13,10 @@ body{
     justify-content: space-around;
 }
 .nav-item:hover{
-    text-decoration: 3px solid underline;
+    background-color: rgba(137, 43, 226, 0.363);
+    /* text-decoration: 3px solid underline; */
+    border-radius: 10px;
+    transition: all .5s;
 
 }
 a{
@@ -48,10 +53,14 @@ h2{
 }
 
 footer{
+    /* position: absolute; */
+    width: 100%;
+    margin-top: 100px;
     text-align: center;
     color: rgb(90, 15, 160);
     background-color: rgba(137, 43, 226, 0.363);
     padding: 20px;
+    
     
 }
 footer p{
