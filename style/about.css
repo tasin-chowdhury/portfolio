@@ -1,0 +1,57 @@
+main {
+    padding: 0 6%;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.about img {
+    height: 200px;
+    border-radius: 10%;
+}
+
+.about p {
+    padding-left: 2%;
+    text-align: justify;
+}
+
+.about-p {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: justify;
+}
+
+p {
+    font-size: 35px;
+    font-family: 'Source Serif 4', serif;
+}
+
+.aside-part {
+    display: flex;
+    flex-direction: row;
+}
+
+.aside-part p {
+    width: 70%;
+}
+
+.asides {
+    width: 30%;
+    padding-left: 3%;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(117, 116, 116);
+    background-color: rgba(203, 203, 202, 0.648);
+
+
+}
+
+.icons svg {
+    width: 20%;
+}

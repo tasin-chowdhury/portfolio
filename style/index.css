@@ -1,12 +1,55 @@
-header{
+/* header {
     display: block;
     text-align: center;
-    font-weight:lighter;
+    font-weight: lighter;
 }
-.header-p{
-    font-size: 40px;
-}
-.heading{
-    font-size: 60px;
 
+.header-p {
+    font-size: 20px;
+}
+
+.heading {
+    font-size: 40px;
+
+} */
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.card>img {
+    width: 50%;
+    height: 50%;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+hr {
+    margin: 15px;
+}
+
+.feauterd-work h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.get-button h2 {
+    margin: 0 35%;
+    width: 25%;
+    text-align: center;
 }

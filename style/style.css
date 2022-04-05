@@ -1,27 +1,45 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     background-image: url('https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-White-Gradient-Background-Image.jpg');
     background-repeat: no-repeat;
-    background-size:cover;
-    /* min-height: 100%;
-    position: relative; */
+    background-size: cover;
+    line-height: 1.6;
 }
-.navbar{
+
+.navbar {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 }
-.nav-item:hover{
+
+.nav-item:hover {
     background-color: rgba(137, 43, 226, 0.363);
     /* text-decoration: 3px solid underline; */
     border-radius: 10px;
     transition: all .5s;
 
 }
-a{
+
+header {
+    display: block;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.header-p {
+    font-size: 30px;
+}
+
+.heading {
+    font-size: 40px;
+
+}
+
+a {
     text-decoration: none;
 }
+
 aside {
     width: 5%;
     padding-left: 15px;
@@ -29,30 +47,38 @@ aside {
     float: right;
     font-style: italic;
     background-color: transparent;
-  }
-
-  aside img{
-      height: 1%;
-      width: 60%;
-  }
-h2{
-    padding: 2%;
-    color: rgb(90, 15, 160);
-    
 }
 
-#get-in-touch{
+aside img {
+    height: 1%;
+    width: 60%;
+}
+
+h2 {
+    padding: 2%;
+    color: rgb(90, 15, 160);
+
+}
+
+#get-in-touch {
     text-decoration: none;
     background-color: rgba(137, 43, 226, 0.363);
     border-radius: 10px;
-    
+
 }
-#get-in-touch:hover{
+
+#get-in-touch:hover {
     border: 4px sloid rgb(255, 255, 255);
     box-shadow: 7px 7px rgb(77, 60, 110);
 }
 
-footer{
+.get-button h2 {
+    margin: 0 35%;
+    width: 25%;
+    text-align: center;
+}
+
+footer {
     /* position: absolute; */
     width: 100%;
     margin-top: 100px;
@@ -60,14 +86,15 @@ footer{
     color: rgb(90, 15, 160);
     background-color: rgba(137, 43, 226, 0.363);
     padding: 20px;
-    
-    
+
+
 }
-footer p{
+
+footer p {
     font-size: large;
 }
 
-.contact img{
+.contact img {
     height: 50px;
     width: 50px;
 }
