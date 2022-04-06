@@ -43,3 +43,7 @@ img {
     height: 100%;
     padding-top: 3%;
 }
+
+.work-name {
+    font-weight: bold;
+}
